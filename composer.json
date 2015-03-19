@@ -1,0 +1,38 @@
+{
+    "name": "webmaniacs.net/lib-fork",
+    "type": "library",
+    "description": "Lib fork processes in PHP and allow multi-threading. Inspired by duncan3dc/fork-helper",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stas Dovgodko",
+            "email": "stas.dovgodko@webmaniacs.net"
+        }
+    ],
+    "keywords": [
+        "fork",
+        "process",
+        "control",
+        "pcntl",
+        "multi-threading"
+    ],
+    "autoload": {
+        "psr-4": {
+            "wmlib\\fork\\": "lib/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+
+    "require": {
+        "ext-pcntl": "*",
+        "php": ">=5.5.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
