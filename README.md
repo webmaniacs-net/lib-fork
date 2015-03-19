@@ -1,5 +1,7 @@
 # lib-fork
 
+Install the latest version with composer require webmaniacs.net/lib-fork
+
 Examples
 --------
 
